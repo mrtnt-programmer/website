@@ -1,0 +1,115 @@
+
+input:hover{/* pour la souris*/
+  opacity:  0.7;
+  cursor: pointer;
+}
+
+#restart input{/* pour le bouton pour recommencer*/
+  font-size: 3em;
+  background-color:red;
+  text-align: center;
+  margin-left: 38%;
+  border: 6px solid FireBrick;
+  border-radius:30px;
+}
+
+#message{/* pour les messages*/
+  text-align: center;
+  font-size: 2em; 
+}
+
+table input{
+    width: 90%;
+    height: 90%;
+    margin: 0px;
+    opacity: 0;
+}
+
+body{
+  background-color: LightCoral ;
+}
+
+table{
+    border: 6px solid DarkBlue;
+    border-collapse: collapse;
+    background-color: Gold;
+    margin: auto;
+}
+
+td{
+    border: 2px solid black;
+    width: 10vh;
+    height: 10vh;
+    text-align: center;
+    font-size: 2em;
+    font-family: Sans-serif;
+    font-weight: bold;
+}
+
+th{
+  background-color: Tomato;
+  height: 2cm;
+}
+
+.score{
+  color: DarkMagenta;
+  display: inline-block;
+  width: 19%;
+  vertical-align: top;
+  text-align:center;
+  border: 6px solid DarkMagenta;
+  border-radius:30px;
+  padding:0;
+}
+
+.score p, .score h2{
+  margin: 2px;
+}
+
+#jeu{
+  width: 114vh;  
+  height: 94vh;
+  background-color: Lavender;
+  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1{ 
+  color: FireBrick;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* pour la bar*/
+body {
+  margin: 0;  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #10c0f1;
+  color: white;
+}
+
