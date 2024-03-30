@@ -1,0 +1,104 @@
+#jeu{
+  width: 80vh;  
+  height: 93vh;
+  background-color: rgb(51, 51, 51);
+  margin: auto;
+  display: block;
+}
+
+#message{
+  text-align: center;
+  font-size: 2em; 
+}
+
+h1{ 
+  color: FireBrick;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: yellow;
+}
+
+.caseNoire,.caseBlanche,.caseJaune{
+  width: 8vh;
+  height: 8vh;
+  font-size: 2em;
+  font-family: Sans-serif;
+  font-weight: bold;
+}
+
+.caseNoire{
+  background-color: Chocolate;
+}
+
+.caseBlanche{
+  background-color: WhiteSmoke;
+}
+
+.caseJaune{
+  background-color: yellow;
+}
+
+table{
+    border: 6px solid DarkBlue;
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+input:hover{
+  cursor: pointer;
+}
+
+table input{
+  width: 90%;
+  height: 90%;
+  margin: 0px;
+  opacity: 1 ;
+  /*pour que les bouton soit invisible*/
+  background: transparent;
+  border: none ;
+}
+
+.caseVide{
+  opacity: 0 ;
+}
+
+#restart input{
+  font-size: 3em;
+  background-color:red;
+  text-align: center;
+  margin-left: 40%;
+}
+
+/* pour la bar*/
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #10c0f1;
+  color: white;
+}
+
